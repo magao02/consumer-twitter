@@ -1,0 +1,11 @@
+<div class="cards" *ngFor="let usuario of usuarios">
+  <div class="card" style="width: 18rem;">
+    <img src={{usuario?.profile_image_url}} class="card-img-top" alt={{usuario?.username}}>
+    <div class="card-body">
+      <h5 class="card-title">{{usuario?.username}}</h5>
+
+      <a (click)="definindoUsuario(usuario)"   class="btn btn-primary">Detalhes</a>
+
+    </div>
+  </div>
+</div>

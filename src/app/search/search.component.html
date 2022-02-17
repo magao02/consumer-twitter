@@ -1,0 +1,8 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!--a pesquisa só ira funcionar com os nomes do json-server que são lucas e thairine-->
+      <form class="d-flex" (ngSubmit)="Pesquisar()">
+        <input class="form-control me-2 " type="text" placeholder="Search" aria-label="Search" id="pesquisa"  [(ngModel)]="pesquisa" name="pesquisa" >
+        <button class="btn btn-outline-success" type="submit" >Search</button>
+      </form>
+</nav>
+

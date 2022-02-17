@@ -1,0 +1,7 @@
+.cards{
+  display: flex;
+  width: 30%;
+}
+.btn-primary{
+  background-color: #198754;
+}
