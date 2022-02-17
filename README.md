@@ -2,6 +2,28 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
+## :hammer: Funcionalidades do projeto
+
+- `Funcionalidade 1`: Pesquisa por nickname
+- `Funcionalidade 2`: receber dados do usuário como tweets, seguidores, etc.
+- `Funcionalidade 3`: pesquisar seguidores do usuário
+**Funcionalidades restritas pelo backend apenas os nomes lucas e thairine funcionam para a pesquisa**
+
+## 📁 Acesso ao projeto
+
+**Baixar o código fonte do projeto e rodar os servidores**
+
+## 🛠️ Abrir e rodar o projeto
+
+**Este projeto conta com um frontend e um backend**
+
+**Tive problemas de autenticação com a api do twitter por isso gerei um json-server para simular a api do twitter**
+
+**Baixar dependecias do projeto com npm install**
+**iniciar o back-end em dados executando comando json-server --watch db.json**
+**Iniciar o front-end com ng serve**
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
